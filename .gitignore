@@ -1,1 +1,4 @@
 /.vs
+/CMakeFiles
+/out
+/CMakeCache
