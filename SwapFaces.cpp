@@ -16,6 +16,7 @@ int main(int argc, char** argv) {
     CascadeClassifier faceDetector;//Declaring an object named 'face detector' of CascadeClassifier class//
     faceDetector.load(trained_classifier_location);//loading the XML trained classifier in the object//
     vector<Rect>faces;//Declaring a rectangular vector named faces//
+    Mat faceROIToChange;
     while (true) {
         faceDetector.detectMultiScale(video_stream, faces, 1.1, 4, CASCADE_SCALE_IMAGE, Size(30, 30));//Detecting the faces in 'image_with_humanfaces' matrix//
         real_time.read(video_stream);// reading frames from camera and loading them in 'video_stream' Matrix//
@@ -25,8 +26,22 @@ int main(int argc, char** argv) {
             int y = faces[i].y;//Getting the initial column value of face rectangle's starting point//
             int h = y + faces[i].height;//Calculating the height of the rectangle//
             int w = x + faces[i].width;//Calculating the width of the rectangle//
-            rectangle(video_stream, Point(x, y), Point(w, h), Scalar(255, 0, 255), 2, 8, 0);//Drawing a rectangle using around the faces//
+            rectangle(video_stream, Point(x, y), Point(w, h), Scalar(255, 0, 255), 2, 8,0);//Drawing a rectangle using around the faces//
+            //TODO: FaceSwap evtl. mit ellyptischer Form umbauen
+            //ellipse(video_stream, Point(x , y ), Size(h/2, w/2), 0, 0, 360, Scalar(255, 0, 255), 8,0);
         }
+        if (faces.size() == 2) {
+            Mat faceROI1src = video_stream(faces[0]);
+            Mat faceROI2src = video_stream(faces[1]);//Storing face in the matrix//
+            Mat faceROI1dest;
+            Mat faceROI2dest;
+            cv::resize(faceROI1src, faceROI1dest, cv::Size(faceROI2src.size().width, faceROI2src.size().height));
+            cv::resize(faceROI2src, faceROI2dest, cv::Size(faceROI1src.size().width, faceROI1src.size().height));
+            faceROI2dest.copyTo(faceROI1src);
+            faceROI1dest.copyTo(faceROI2src);
+        }
+       
+
         imshow("Face Detection", video_stream);
         //Showing the detected face//
         if (waitKey(10) == 27) { //wait time for each frame is 10 milliseconds//
