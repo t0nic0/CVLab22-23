@@ -12,7 +12,7 @@ int main(int argc, char** argv) {
     Mat video_stream;//Declaring a matrix hold frames from video stream//
     VideoCapture real_time(0);//capturing video from default webcam//
     namedWindow("Face Detection");//Declaring an window to show the result//
-    string trained_classifier_location = "C:/Users/Toni/Documents/Workspace/opencv/sources/data/haarcascades/haarcascade_frontalface_alt.xml";//Defining the location our XML Trained Classifier in a string//
+    string trained_classifier_location = "C:/Users/Toni/Documents/Workspace/opencv/sources/data/lbpcascades/lbpcascade_frontalface_improved.xml";//Defining the location our XML Trained Classifier in a string//
     CascadeClassifier faceDetector;//Declaring an object named 'face detector' of CascadeClassifier class//
     faceDetector.load(trained_classifier_location);//loading the XML trained classifier in the object//
     vector<Rect>faces;//Declaring a rectangular vector named faces//
