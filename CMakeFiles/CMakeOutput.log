@@ -109,3 +109,742 @@ Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/
 
 
 
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Build started 14/12/2022 16:50:36.
+Project "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\3.25.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\3.25.1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\3.25.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.24
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/3.25.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Build started 14/12/2022 16:50:37.
+Project "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\3.25.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\3.25.1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\3.25.1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/3.25.1/CompilerIdC/CompilerIdC.exe"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-oj30e9
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_78346.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CMakeCXXCompilerABI.cpp
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_78346.dir\Debug\\" /Fd"cmTC_78346.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Users\Toni\Documents\Workspace\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_78346.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-oj30e9\Debug\cmTC_78346.exe
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-lwagxw
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0a536.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CMakeCCompilerABI.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0a536.dir\Debug\\" /Fd"cmTC_0a536.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Toni\Documents\Workspace\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c"
+  cmTC_0a536.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-lwagxw\Debug\cmTC_0a536.exe
+
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-7rhzra
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e00e7.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e00e7.dir\Release\\" /Fd"cmTC_e00e7.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-7rhzra\CheckIncludeFile.c"
+  cmTC_e00e7.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-7rhzra\Release\cmTC_e00e7.exe
+
+
+
+Determining if the _aligned_malloc exist passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-mw8owc
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_436dc.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_436dc.dir\Release\\" /Fd"cmTC_436dc.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-mw8owc\CheckSymbolExists.c"
+  cmTC_436dc.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-mw8owc\Release\cmTC_436dc.exe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-ro2bzt
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_78b0a.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_78b0a.dir\Release\\" /Fd"cmTC_78b0a.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-ro2bzt\CheckIncludeFile.c"
+  cmTC_78b0a.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-ro2bzt\Release\cmTC_78b0a.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-zykj1l
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7ef0b.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7ef0b.dir\Release\\" /Fd"cmTC_7ef0b.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-zykj1l\CheckIncludeFile.c"
+  cmTC_7ef0b.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-zykj1l\Release\cmTC_7ef0b.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-o3o338
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_22f72.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22f72.dir\Release\\" /Fd"cmTC_22f72.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-o3o338\CheckIncludeFile.c"
+  cmTC_22f72.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-o3o338\Release\cmTC_22f72.exe
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-x4dh77
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2f449.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  SIZEOF_SIZE_T.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f449.dir\Release\\" /Fd"cmTC_2f449.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-x4dh77\SIZEOF_SIZE_T.c"
+  cmTC_2f449.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-x4dh77\Release\cmTC_2f449.exe
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-e1egzo
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b2662.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  SIZEOF_UNSIGNED_LONG.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b2662.dir\Release\\" /Fd"cmTC_b2662.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-e1egzo\SIZEOF_UNSIGNED_LONG.c"
+  cmTC_b2662.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-e1egzo\Release\cmTC_b2662.exe
+
+
+
+Determining if files intrin.h exist passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-4kq62w
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d3ab0.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  HAVE_INTRIN_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d3ab0.dir\Release\\" /Fd"cmTC_d3ab0.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-4kq62w\HAVE_INTRIN_H.c"
+  cmTC_d3ab0.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-4kq62w\Release\cmTC_d3ab0.exe
+
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-emuu6q
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_56076.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_56076.dir\Release\\" /Fd"cmTC_56076.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-emuu6q\CheckIncludeFile.c"
+  cmTC_56076.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-emuu6q\Release\cmTC_56076.exe
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-288tvf
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6fdfd.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6fdfd.dir\Release\\" /Fd"cmTC_6fdfd.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-288tvf\CheckIncludeFile.c"
+  cmTC_6fdfd.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-288tvf\Release\cmTC_6fdfd.exe
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-t4egcw
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_20e72.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_20e72.dir\Release\\" /Fd"cmTC_20e72.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-t4egcw\CheckIncludeFile.c"
+  cmTC_20e72.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-t4egcw\Release\cmTC_20e72.exe
+
+
+
+Determining if the include file io.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-vo2t6b
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7d970.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7d970.dir\Release\\" /Fd"cmTC_7d970.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-vo2t6b\CheckIncludeFile.c"
+  cmTC_7d970.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-vo2t6b\Release\cmTC_7d970.exe
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-p93woa
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_dea24.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dea24.dir\Release\\" /Fd"cmTC_dea24.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-p93woa\CheckIncludeFile.c"
+  cmTC_dea24.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-p93woa\Release\cmTC_dea24.exe
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-dmoysm
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b17f2.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b17f2.dir\Release\\" /Fd"cmTC_b17f2.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-dmoysm\CheckIncludeFile.c"
+  cmTC_b17f2.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-dmoysm\Release\cmTC_b17f2.exe
+
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-uvr5m6
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4866b.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4866b.dir\Release\\" /Fd"cmTC_4866b.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-uvr5m6\CheckIncludeFile.c"
+  cmTC_4866b.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-uvr5m6\Release\cmTC_4866b.exe
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-9ty9k5
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1453f.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1453f.dir\Release\\" /Fd"cmTC_1453f.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-9ty9k5\CheckIncludeFile.c"
+  cmTC_1453f.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-9ty9k5\Release\cmTC_1453f.exe
+
+
+
+Performing C SOURCE FILE Test C_HAS_inline succeeded with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-ckvnke
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_dceb4.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  src.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D C_HAS_inline /D inline=inline /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dceb4.dir\Release\\" /Fd"cmTC_dceb4.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-ckvnke\src.c"
+  cmTC_dceb4.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-ckvnke\Release\cmTC_dceb4.exe
+
+
+Source file was:
+
+        typedef int foo_t;
+        static inline foo_t static_foo() {return 0;}
+        foo_t foo(){return 0;}
+        int main(int argc, char *argv[]) {return 0;}
+
+Determining size of signed short passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-gfihna
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8654e.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  SIZEOF_SIGNED_SHORT.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8654e.dir\Release\\" /Fd"cmTC_8654e.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-gfihna\SIZEOF_SIGNED_SHORT.c"
+  cmTC_8654e.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-gfihna\Release\cmTC_8654e.exe
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-ty3jkc
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6cd0a.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  SIZEOF_UNSIGNED_SHORT.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6cd0a.dir\Release\\" /Fd"cmTC_6cd0a.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-ty3jkc\SIZEOF_UNSIGNED_SHORT.c"
+  cmTC_6cd0a.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-ty3jkc\Release\cmTC_6cd0a.exe
+
+
+
+Determining size of signed int passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-jsated
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_61fcf.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  SIZEOF_SIGNED_INT.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61fcf.dir\Release\\" /Fd"cmTC_61fcf.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-jsated\SIZEOF_SIGNED_INT.c"
+  cmTC_61fcf.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-jsated\Release\cmTC_61fcf.exe
+
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-zhh8nk
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_dc180.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  SIZEOF_UNSIGNED_INT.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dc180.dir\Release\\" /Fd"cmTC_dc180.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-zhh8nk\SIZEOF_UNSIGNED_INT.c"
+  cmTC_dc180.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-zhh8nk\Release\cmTC_dc180.exe
+
+
+
+Determining size of signed long passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-c7a4c9
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_81631.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  SIZEOF_SIGNED_LONG.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81631.dir\Release\\" /Fd"cmTC_81631.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-c7a4c9\SIZEOF_SIGNED_LONG.c"
+  cmTC_81631.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-c7a4c9\Release\cmTC_81631.exe
+
+
+
+Determining size of signed long long passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-ba18k8
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_df246.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  SIZEOF_SIGNED_LONG_LONG.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df246.dir\Release\\" /Fd"cmTC_df246.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-ba18k8\SIZEOF_SIGNED_LONG_LONG.c"
+  cmTC_df246.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-ba18k8\Release\cmTC_df246.exe
+
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-g5he7a
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bc2ee.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  SIZEOF_UNSIGNED_LONG_LONG.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bc2ee.dir\Release\\" /Fd"cmTC_bc2ee.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-g5he7a\SIZEOF_UNSIGNED_LONG_LONG.c"
+  cmTC_bc2ee.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-g5he7a\Release\cmTC_bc2ee.exe
+
+
+
+Determining size of unsigned char * passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-0f0m23
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5ffb8.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  SIZEOF_UNSIGNED_CHAR_P.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ffb8.dir\Release\\" /Fd"cmTC_5ffb8.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-0f0m23\SIZEOF_UNSIGNED_CHAR_P.c"
+  cmTC_5ffb8.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-0f0m23\Release\cmTC_5ffb8.exe
+
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-t0teyp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2e0ec.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  SIZEOF_PTRDIFF_T.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2e0ec.dir\Release\\" /Fd"cmTC_2e0ec.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-t0teyp\SIZEOF_PTRDIFF_T.c"
+  cmTC_2e0ec.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-t0teyp\Release\cmTC_2e0ec.exe
+
+
+
+Determining if the function setmode exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-5ba4x0
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7eb68.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=setmode /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7eb68.dir\Release\\" /Fd"cmTC_7eb68.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-5ba4x0\CheckFunctionExists.c"
+  cmTC_7eb68.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-5ba4x0\Release\cmTC_7eb68.exe
+
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-ya2qgt
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b7e5a.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strchr /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7e5a.dir\Release\\" /Fd"cmTC_b7e5a.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-ya2qgt\CheckFunctionExists.c"
+  cmTC_b7e5a.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-ya2qgt\Release\cmTC_b7e5a.exe
+
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-trp4rh
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4cfe8.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strrchr /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4cfe8.dir\Release\\" /Fd"cmTC_4cfe8.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-trp4rh\CheckFunctionExists.c"
+  cmTC_4cfe8.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-trp4rh\Release\cmTC_4cfe8.exe
+
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-906zta
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b8b73.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strstr /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b8b73.dir\Release\\" /Fd"cmTC_b8b73.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-906zta\CheckFunctionExists.c"
+  cmTC_b8b73.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-906zta\Release\cmTC_b8b73.exe
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-nz8eig
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0d0b1.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strtol /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0d0b1.dir\Release\\" /Fd"cmTC_0d0b1.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-nz8eig\CheckFunctionExists.c"
+  cmTC_0d0b1.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-nz8eig\Release\cmTC_0d0b1.exe
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-9qb3yb
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3b8ce.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strtol /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b8ce.dir\Release\\" /Fd"cmTC_3b8ce.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-9qb3yb\CheckFunctionExists.c"
+  cmTC_3b8ce.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-9qb3yb\Release\cmTC_3b8ce.exe
+
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-1kxi8j
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_13e87.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strtoull /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13e87.dir\Release\\" /Fd"cmTC_13e87.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-1kxi8j\CheckFunctionExists.c"
+  cmTC_13e87.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-1kxi8j\Release\cmTC_13e87.exe
+
+
+
+Determining if the function lfind exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-ir7uli
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9b2d7.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=lfind /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9b2d7.dir\Release\\" /Fd"cmTC_9b2d7.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-ir7uli\CheckFunctionExists.c"
+  cmTC_9b2d7.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-ir7uli\Release\cmTC_9b2d7.exe
+
+
+
+Performing C SOURCE FILE Test HAVE_SNPRINTF succeeded with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-c1n8wt
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a50ab.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  src.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D HAVE_SNPRINTF /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a50ab.dir\Release\\" /Fd"cmTC_a50ab.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-c1n8wt\src.c"
+  cmTC_a50ab.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-c1n8wt\Release\cmTC_a50ab.exe
+
+
+Source file was:
+
+#include <stdio.h>
+int main(void) {
+  char buf[10];
+  snprintf(buf, 10, "Test %d", 1);
+  return 0;
+}
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-n17oel
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_54400.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_54400.dir\Release\\" /Fd"cmTC_54400.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-n17oel\CheckIncludeFile.c"
+  cmTC_54400.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-n17oel\Release\cmTC_54400.exe
+
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-gk87k1
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_af07a.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af07a.dir\Release\\" /Fd"cmTC_af07a.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-gk87k1\CheckIncludeFile.c"
+  cmTC_af07a.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-gk87k1\Release\cmTC_af07a.exe
+
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-gr2m46
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_dce19.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dce19.dir\Release\\" /Fd"cmTC_dce19.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-gr2m46\CheckIncludeFile.c"
+  cmTC_dce19.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-gr2m46\Release\cmTC_dce19.exe
+
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-r56ln3
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9711e.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9711e.dir\Release\\" /Fd"cmTC_9711e.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-r56ln3\CheckIncludeFile.c"
+  cmTC_9711e.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-r56ln3\Release\cmTC_9711e.exe
+
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-uihho2
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_50265.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50265.dir\Release\\" /Fd"cmTC_50265.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-uihho2\CheckIncludeFile.c"
+  cmTC_50265.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-uihho2\Release\cmTC_50265.exe
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-8b52ux
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3de23.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3de23.dir\Release\\" /Fd"cmTC_3de23.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-8b52ux\CheckIncludeFile.c"
+  cmTC_3de23.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-8b52ux\Release\cmTC_3de23.exe
+
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-d920rt
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f880b.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f880b.dir\Release\\" /Fd"cmTC_f880b.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-d920rt\CheckIncludeFile.c"
+  cmTC_f880b.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-d920rt\Release\cmTC_f880b.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-wzg7of
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_714c6.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_714c6.dir\Release\\" /Fd"cmTC_714c6.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-wzg7of\CheckIncludeFile.c"
+  cmTC_714c6.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-wzg7of\Release\cmTC_714c6.exe
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-00r65a
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_763cd.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_763cd.dir\Release\\" /Fd"cmTC_763cd.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-00r65a\CheckIncludeFile.c"
+  cmTC_763cd.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-00r65a\Release\cmTC_763cd.exe
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-6xgaby
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4bd44.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4bd44.dir\Release\\" /Fd"cmTC_4bd44.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-6xgaby\CheckIncludeFile.c"
+  cmTC_4bd44.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-6xgaby\Release\cmTC_4bd44.exe
+
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-jy921h
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ca932.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  OPJ_HAVE_MALLOC_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ca932.dir\Release\\" /Fd"cmTC_ca932.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-jy921h\OPJ_HAVE_MALLOC_H.c"
+  cmTC_ca932.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-jy921h\Release\cmTC_ca932.exe
+
+
+
+Determining if the _aligned_malloc exist passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-3j6qjf
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5d380.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d380.dir\Release\\" /Fd"cmTC_5d380.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-3j6qjf\CheckSymbolExists.c"
+  cmTC_5d380.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-3j6qjf\Release\cmTC_5d380.exe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file mfapi.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-3x3lly
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_eb0ec.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eb0ec.dir\Release\\" /Fd"cmTC_eb0ec.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-3x3lly\CheckIncludeFile.c"
+  cmTC_eb0ec.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-3x3lly\Release\cmTC_eb0ec.exe
+
+
+
+Determining if the include file d3d11_4.h exists passed with the following output:
+Change Dir: C:/Users/Toni/source/repos/CVLab22-23/CMakeFiles/CMakeScratch/TryCompile-o9rnsj
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7d990.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31935 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7d990.dir\Release\\" /Fd"cmTC_7d990.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-o9rnsj\CheckIncludeFile.c"
+  cmTC_7d990.vcxproj -> C:\Users\Toni\source\repos\CVLab22-23\CMakeFiles\CMakeScratch\TryCompile-o9rnsj\Release\cmTC_7d990.exe
+
+
+
