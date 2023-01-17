@@ -22,6 +22,10 @@ int main(int argc, char** argv) {
     while (true) {
         faceDetector.detectMultiScale(video_stream, faces, 1.1, 4, CASCADE_SCALE_IMAGE, Size(30, 30));//Detecting the faces in 'image_with_humanfaces' matrix//
         real_time.read(video_stream);// reading frames from camera and loading them in 'video_stream' Matrix//
+       
+
+
+
         for (int i = 0; i < faces.size(); i++) { //for locating the face
             Mat faceROI = video_stream(faces[i]);//Storing face in the matrix//
             int x = faces[i].x;//Getting the initial row value of face rectangle's starting point//
@@ -32,11 +36,16 @@ int main(int argc, char** argv) {
             //TODO: FaceSwap evtl. mit ellyptischer Form umbauen
             //ellipse(video_stream, Point(x , y ), Size(h/2, w/2), 0, 0, 360, Scalar(255, 0, 255), 8,0);
         }
+        Mat display;
+        video_stream.copyTo(display);
         if (faces.size() == 2) {
-            Mat faceROI1 = video_stream(faces[0]);
-            Mat faceROI2 = video_stream(faces[1]);//Storing face in the matrix//
-            Mat faceROI1temp = faceROI1;
-            Mat faceROI2temp = faceROI2;
+            // copy videoStream to display mat
+            Mat faceROI1 = display(faces[0]);
+            Mat faceROI2 = display(faces[1]);//Storing face in the matrix//
+
+            //Mat faceROI1 = video_stream(faces[0]);
+            //Mat faceROI2 = video_stream(faces[1]);//Storing face in the matrix//
+    
 
             // Define corner points of faces in cevtor
             faceROI2.cols;
@@ -79,16 +88,18 @@ int main(int argc, char** argv) {
             cout << faceROI1.size()<<endl;
             cout << im_out1.size()<<endl;
             cout << "these numbers should be equal " << endl;
-            //works so far! face 2 gets warped to the size of face1
+            
 
             //TODO: position new image im_out at the right place in the videostream
+            // 
+            
+
             //copyTo for adding the image im_out to the videstream
             im_out1.copyTo(faceROI1);
             //copyTo for adding the image im_out to the videstream
             im_out2.copyTo(faceROI2);
 
-
-
+            
             //Display images
 
 
@@ -182,7 +193,7 @@ int main(int argc, char** argv) {
         }
        
 
-        imshow("Face Detection", video_stream);
+        imshow("Face Detection", display);
         //Showing the detected face//
         if (waitKey(10) == 27) { //wait time for each frame is 10 milliseconds//
             break;
