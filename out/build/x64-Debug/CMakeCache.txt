@@ -207,6 +207,9 @@ CVLab22-23_SOURCE_DIR:STATIC=C:/Users/Toni/source/repos/CVLab22-23
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=C:/Users/Toni/Documents/Workspace/opencv/build
 
+//Path to a library.
+dlib:FILEPATH=dlib-NOTFOUND
+
 
 ########################
 # INTERNAL cache entries
