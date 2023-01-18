@@ -15,9 +15,9 @@ int main(int argc, char** argv) {
 
     // Load the cascades
     CascadeClassifier face_cascade;
-    face_cascade.load("C:/Users/Toni/Documents/Workspace/opencv/sources/data/lbpcascades/lbpcascade_frontalface_improved.xml");
+    face_cascade.load("D:/UserData/z0047zpj/ComputerVisionProjekt/opencv/sources/data/lbpcascades/lbpcascade_frontalface_improved.xml");
     CascadeClassifier eyes_cascade;
-    eyes_cascade.load("C:/Users/Toni/Documents/Workspace/opencv/sources/data/haarcascades/haarcascade_eye.xml");
+    eyes_cascade.load("D:/UserData/z0047zpj/ComputerVisionProjekt/opencv/sources/data/haarcascades/haarcascade_eye.xml");
 
     // Open the video stream
     VideoCapture stream(0);
@@ -33,9 +33,14 @@ int main(int argc, char** argv) {
     double prev_norm2 = 0;
     double curr_norm1 = 0;
     double curr_norm2 = 0;
-    double threshold = 0.02;
+    double threshold = 60000;
     bool face1_detected = false;
     bool face2_detected = false;
+
+    int prevEyeCount1 = 0;
+    int prevEyeCount2 = 0;
+    vector<Rect> prevEyes;
+
 
     while (true) {
         Mat frame;
@@ -50,7 +55,9 @@ int main(int argc, char** argv) {
         face_cascade.detectMultiScale(gray, faces, 1.1, 3, 0, Size(30, 30));
 
         // Draw rectangles around the faces and eyes
-        for (size_t i = 0; i < faces.size(); i++) {
+        for (size_t i = 0; i < faces.size(); i++)
+        {
+            
             rectangle(frame, faces[i], Scalar(255, 0, 0), 2);
 
             Mat faceROI = gray(faces[i]);
@@ -59,6 +66,33 @@ int main(int argc, char** argv) {
             //-- In each face, detect eyes
             eyes_cascade.detectMultiScale(faceROI, eyes, 1.1, 2, 0 | CASCADE_SCALE_IMAGE, Size(30, 30));
 
+            //WHEN EYE GETS LOST THE COUNT IS INCREMENTED
+            //if (i == 0) {
+            //    if (eyes.size() < prevEyeCount1) {
+            //        blink_count1++;
+            //    }
+            //    prevEyeCount1 = eyes.size();
+            //}
+            //else if (i == 1) {
+            //    if (eyes.size() < prevEyeCount2) {
+            //        blink_count2++;
+            //    }
+            //    prevEyeCount2 = eyes.size();
+            //}
+            // 
+            //USE OLD EYE POSITION WHEN NO EYE IS FOUND
+            
+                
+            // if less than 2  eyes found, use old eyes
+            if (eyes.size() <2) {
+                eyes = prevEyes;
+            }
+            for (size_t j = 0; j < eyes.size(); j++) {
+                Point center(faces[i].x + eyes[j].x + eyes[j].width / 2, faces[i].y + eyes[j].y + eyes[j].height / 2);
+                int radius = cvRound((eyes[j].width + eyes[j].height) * 0.25);
+                circle(frame, center, radius, Scalar(255, 0, 0), 2);
+            }
+            cout << "X1: " << eyes[0].x << endl << "Y2: " << eyes[1].x << endl;
             for (size_t j = 0; j < eyes.size(); j++) {
                 Point center(faces[i].x + eyes[j].x + eyes[j].width / 2, faces[i].y + eyes[j].y + eyes[j].height / 2);
                 int radius = cvRound((eyes[j].width + eyes[j].height) * 0.25);
@@ -66,13 +100,14 @@ int main(int argc, char** argv) {
 
                 // Count eye blinks for the first face
                 if (i == 0) {
-                    Mat eyeROI = gray(Rect(faces[i].x + eyes[j].x, faces[i].y + eyes[j].y, eyes[j].width, eyes[j].height));
-                    Mat eyeROI_norm;
+                    Mat eyeROI = gray(Rect(faces[i].x + eyes[j].x, faces[i].y + eyes[j].y, eyes[j].width, eyes[j].height)); //grayscale image
+                    Mat eyeROI_norm;                                                                                        //normalized between 
                     cv::normalize(eyeROI, eyeROI_norm, 0, 255, cv::NORM_MINMAX);
                     curr_norm1 = cv::norm(eyeROI_norm, NORM_L1);
                     if (prev_norm1 == 0) prev_norm1 = curr_norm1;
                     else {
                         double norm_diff = abs(prev_norm1 - curr_norm1);
+                        cout << norm_diff << endl;
                         if (norm_diff > threshold) {
                             blink_count1++;
                         }
@@ -95,7 +130,51 @@ int main(int argc, char** argv) {
                         prev_norm2 = curr_norm2;
                     }
                 }
+                prevEyes.resize(0);
+                prevEyes.push_back(eyes[0]);
+                prevEyes.push_back(eyes[1]);
             }
+            //ORIGINAL CODE:
+// 
+            //for (size_t j = 0; j < eyes.size(); j++) {
+            //    Point center(faces[i].x + eyes[j].x + eyes[j].width / 2, faces[i].y + eyes[j].y + eyes[j].height / 2);
+            //    int radius = cvRound((eyes[j].width + eyes[j].height) * 0.25);
+            //    circle(frame, center, radius, Scalar(255, 0, 0), 2);
+
+            //    // Count eye blinks for the first face
+            //    if (i == 0) {
+            //        Mat eyeROI = gray(Rect(faces[i].x + eyes[j].x, faces[i].y + eyes[j].y, eyes[j].width, eyes[j].height)); //grayscale image
+            //        Mat eyeROI_norm;                                                                                        //normalized between 
+            //        cv::normalize(eyeROI, eyeROI_norm, 0, 255, cv::NORM_MINMAX);
+            //        curr_norm1 = cv::norm(eyeROI_norm, NORM_L1);
+            //        if (prev_norm1 == 0) prev_norm1 = curr_norm1;
+            //        else {
+            //            double norm_diff = abs(prev_norm1 - curr_norm1);
+            //            cout << norm_diff << endl;
+            //            if (norm_diff > threshold) {
+            //                blink_count1++;
+            //            }
+            //            prev_norm1 = curr_norm1;
+            //        }
+            //    }
+
+                // Count eye blinks for the second face
+               /* else if (i == 1) {
+                    Mat eyeROI = gray(Rect(faces[i].x + eyes[j].x, faces[i].y + eyes[j].y, eyes[j].width, eyes[j].height));
+                    Mat eyeROI_norm;
+                    cv::normalize(eyeROI, eyeROI_norm, 0, 255, cv::NORM_MINMAX);
+                    curr_norm2 = cv::norm(eyeROI_norm, NORM_L1);
+                    if (prev_norm2 == 0) prev_norm2 = curr_norm2;
+                    else {
+                        double norm_diff = abs(prev_norm2 - curr_norm2);
+                        if (norm_diff > threshold) {
+                            blink_count2++;
+                        }
+                        prev_norm2 = curr_norm2;
+                    }
+                }*/
+
+
         }
 
         // Display blink count for each face
