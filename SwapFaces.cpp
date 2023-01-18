@@ -14,7 +14,7 @@ int main(int argc, char** argv) {
     Mat video_stream;//Declaring a matrix hold frames from video stream//
     VideoCapture real_time(0);//capturing video from default webcam//
     namedWindow("Face Detection");//Declaring an window to show the result//
-    string trained_classifier_location = "D:/UserData/z0047zpj/ComputerVisionProjekt/opencv/sources/data/lbpcascades/lbpcascade_frontalface_improved.xml";//Defining the location our XML Trained Classifier in a string//
+    string trained_classifier_location = "D:/UserData/z0047zpj/ComputerVisionProjekt/opencv/sources/data/lbpcascades/lbpcascade_frontalface_improved.xml";//Defining the location our XML Trained Classifier in a string// 
     CascadeClassifier faceDetector;//Declaring an object named 'face detector' of CascadeClassifier class//
     faceDetector.load(trained_classifier_location);//loading the XML trained classifier in the object//
     vector<Rect>faces;//Declaring a rectangular vector named faces//
@@ -63,6 +63,30 @@ int main(int argc, char** argv) {
 
             vector<Point2f> points1{ p1_1,p1_2,p1_3,p1_4 };
             vector<Point2f> points2{ p2_1,p2_2,p2_3,p2_4 };
+
+            //TEST SMILE RECOGNITION
+            Mat gray;
+            faceROI1.copyTo(gray);
+            //cv::cvtColor(faceROI1,gray, cv::COLOR_BGR2GRAY);
+            string trained_classifier_location_smile = "D:/UserData/z0047zpj/ComputerVisionProjekt/opencv/sources/data/haarcascades/haarcascade_smile.xml";//Defining the location our XML Trained Classifier in a string// 
+            CascadeClassifier smileDetector;//Declaring an object named 'face detector' of CascadeClassifier class//
+            smileDetector.load(trained_classifier_location_smile);//loading the XML trained classifier in the object//
+            vector<Rect>smiles;//Declaring a rectangular vector named faces//
+            smileDetector.detectMultiScale(gray, smiles, 1.1, 4, CASCADE_SCALE_IMAGE, Size(30, 30));//Detecting the faces in 'image_with_humanfaces' matrix//
+
+            for (int i = 0; i < smiles.size(); i++) { //for locating the face
+                Mat smileROI = gray(smiles[i]);//Storing face in the matrix//
+                int x = smiles[i].x;//Getting the initial row value of face rectangle's starting point//
+                int y = smiles[i].y;//Getting the initial column value of face rectangle's starting point//
+                int h = y + smiles[i].height;//Calculating the height of the rectangle//
+                int w = x + smiles[i].width;//Calculating the width of the rectangle//
+                rectangle(gray, Point(x, y), Point(w, h), Scalar(255, 0, 255), 2, 8, 0);//Drawing a rectangle using around the faces//
+                imshow("Smile Detection", gray);
+                //TODO: FaceSwap evtl. mit ellyptischer Form umbauen
+                //ellipse(video_stream, Point(x , y ), Size(h/2, w/2), 0, 0, 360, Scalar(255, 0, 255), 8,0);
+            }
+
+
 
             //find Homography matrix that is the homography from face 2 to face 1
             Mat h1 = findHomography(points2, points1);
@@ -192,7 +216,7 @@ int main(int argc, char** argv) {
            
         }
        
-
+        
         imshow("Face Detection", display);
         //Showing the detected face//
         if (waitKey(10) == 27) { //wait time for each frame is 10 milliseconds//
